@@ -1,6 +1,34 @@
-// Custom.scss
-// Option A: Include all of Bootstrap
+// ---------------------------- edits on bootstrap's files ------------------------------
+$active: rgb(128, 136, 143);
+$newblack: black;
+$newwhite: white;
 
+
+/* pagination - Gallery */
+
+$pagination-color:                  $newblack;
+
+$pagination-focus-color:            $active;
+
+$pagination-hover-color:            $newwhite;
+$pagination-hover-bg:               $active;
+$pagination-hover-border-color:     $active;
+
+$pagination-active-color:           $newwhite;
+$pagination-active-bg:              $active;
+
+$pagination-disabled-color:         $active;
+$pagination-disabled-bg:            $active;
+
+.mb-6 {
+    margin-bottom: 5rem;
+}
+
+.mt-6 {
+    margin-top: 5rem;
+}
+
+/* map - About Us */
 $position-values: (
     0: 0,
     5: 5%,
@@ -30,9 +58,14 @@ $position-values: (
 @import "../node_modules/bootstrap/scss/mixins";
 @import "../node_modules/bootstrap/scss/bootstrap";
 
+
+
+
+// ---------------------------- other edits ------------------------------
+
 @import url('https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&display=swap');
 
-/* general header / footer */
+/* general header and footer */
 body {
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
@@ -85,3 +118,5 @@ body {
     width:100%;
     position:absolute;
 }
+
+
