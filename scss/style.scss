@@ -1,0 +1,57 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&display=swap');
+
+/* general header / footer */
+body {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#h1-restname {
+    font-family: 'Hachi Maru Pop', cursive;
+}
+
+.dropdown-toggle::after {
+    content: none;
+}
+
+#p-footer {
+    font-size: 10px;
+ }
+
+ .new-bg {
+     background-color: white;
+ }
+
+
+/* home */
+.no-padding {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.img-color {
+    filter: brightness(0) invert(1);
+}
+
+
+/* menu */
+.btn-font {
+    font-size: 12px;
+}
+
+/* about us */
+.map-container-2 {
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+
+.map-container-2 iframe {
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
